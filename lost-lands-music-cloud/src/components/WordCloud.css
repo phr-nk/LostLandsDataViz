@@ -1,0 +1,33 @@
+.wordCloud{
+    margin-top: 5vh;
+}
+.innerCloud{
+    height: 60vh;
+    width: 40vw;
+    margin-top: -4vh;
+    margin-bottom: 150px;
+}
+.reloadButton{
+  top:-10vh;
+}
+@media only screen and (max-width: 480px) {
+    body .wordCloud {
+    
+    }
+    body svg {
+      transform: translate(0, 4vh);
+    }
+    body .verticalAdjust {
+      position: relative;
+      transform: rotate(90deg);
+      top: 50vh;
+      right: 60vw;
+    }
+    body .innerCloud{
+      height: 30vh;
+      width: 90vw;
+      margin-top: -50;
+      margin-bottom: 150px;
+    }
+  }
+  

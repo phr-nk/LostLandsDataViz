@@ -1,0 +1,57 @@
+body{
+  background-image: url('https://www.lostlandsfestival.com/wp-content/uploads/2020/01/08-Background.jpg');
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;              /* optional, center the image */
+}
+
+.App {
+  
+  text-align: center;
+  height: 100%;
+
+}
+.textContainer{
+  margin-left:0.5rem;
+  margin-right:0.5rem;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.App-footer{
+
+  color: white;
+  margin-bottom: 1rem;
+  
+ 
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
