@@ -176,21 +176,6 @@ class App extends React.Component {
     // window.location.reload(true);
   }
   componentDidMount() {
-    //let params = getHashParams();
-    /* 
-    if (params.access_token !== undefined) {
-      this.setState({ token: params.access_token });
-      this.getUserData(params.access_token)
-        .then((res) => {
-          this.setState({ name: res.data.display_name });
-          this.setState({ image: res.data.images[0].url });
-          //window.history.replaceState({}, document.title, "/");
-        })
-        .catch((err) => {
-          console.log(err);
-          return;
-        });
-      */
     this.setState({ genres: genres });
     /* */
 
